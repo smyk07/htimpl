@@ -1,0 +1,7 @@
+My hash table implementation 
+
+Compile: clang -g -lm main.c ht.c -o main
+Run: ./main 
+Leak Checks: valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes -s ./main
+
+Followed https://github.com/jamesroutley/write-a-hash-table
