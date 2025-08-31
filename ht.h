@@ -22,6 +22,9 @@
  * SOFTWARE.
  */
 
+#ifndef HT_H
+#define HT_H
+
 #include <stddef.h>
 
 /*
@@ -84,3 +87,5 @@ char *ht_search(ht *table, const char *key);
  * @param key: key string literal.
  */
 void ht_delete(ht *table, const char *key);
+
+#endif // !HT_H
