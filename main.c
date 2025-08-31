@@ -9,7 +9,7 @@
 #include <string.h>
 
 int main() {
-  ht *table = ht_new();
+  ht *table = ht_new(sizeof(char *) * 50);
 
   ht_insert(table, "name", "mei mei");
   ht_insert(table, "age", "67");
